@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>טלי נעמן יועצת נדלן</title>
+    <meta
+      name=" discription"
+      content="this is my site at least im trying i think im doing pretty well eh"
+    />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="imeges/tsunami.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/mini project/styling.CSS" />
+  </head>
+  <body>
+    <header class="navigation-bar">
+      <nav>
+        <h1 id="logo">טלי נעמן יועצת נדלן</h1>
+        <ul>
+          <li><a href="/mini project/index.html">בית</a></li>
+          <li><a href="/mini project/gallery/gallery.html">גלריה</a></li>
+          <li>
+            <a href="https://get-marketing.co.il/tali_naaman/">כרטיס ביקור</a>
+          </li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <h2>יעוץ נדלן ושיווק</h2>
+      <h3>חדרה והסביבה</h3>
+      <form target="blank" action="https://www.facebook.com/tali124h">
+        <button>לנכסים</button>
+      </form>
+    </section>
+    <section class="form-section">
+      <header>
+        <h2>שלח פנייה</h2>
+      </header>
+      <form action="/mini project/submit/submited.html">
+        <label for="name-input">שם מלא</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">אימייל</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="messege">תוכן</label>
+        <textarea
+          name="messege"
+          id="messege-input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <select name="type" id="type">
+          <option value="" disabled selected hidden>בחר נכס</option>
+          <option value="bilding">דירה</option>
+          <option value="house">בית קרקע</option>
+          <option value="filed">מגרש</option>
+        </select>
+
+        <div class="radio-button">
+          <input type="radio" id="radio1" name="radios" value="all" checked />
+          <label for="radio1">מכירה</label>
+          <input type="radio" id="radio2" name="radios" value="false" />
+          <label for="radio2">קנייה</label>
+          <input type="radio" id="radio3" name="radios" value="false" />
+          <label for="radio3">השכרה</label>
+        </div>
+
+        <button>שלח</button>
+      </form>
+    </section>
+  </body>
+</html>
